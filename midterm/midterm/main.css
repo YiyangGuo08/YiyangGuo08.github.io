@@ -1,0 +1,333 @@
+body {
+    background-color: #332e6f;
+}
+ /* 改变全局字体 */
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* title */
+#title {
+    position: absolute;
+    color:#d9d9f9;
+    opacity: 1;
+
+    left: 600px;
+    top: 90px;
+    font-size: 72px;
+    font-family: Pixelify Sans;
+    text-align: center;
+    z-index: 50;
+}
+#title-1 {
+    position: absolute;
+    color:#7a7acb;
+    opacity: 1;
+    text-shadow: 4px 5px 4px #080526;   
+
+    left: 604px;
+    top: 94px;
+    font-size: 72px;
+    font-family: Pixelify Sans;
+    text-align: center;
+    z-index: 49;
+}
+
+#title2 {
+    position: absolute;
+    color:#ffe75f;
+    opacity: 1;
+
+    left: 250px;
+    top: 164px;
+    font-size: 92px;
+    font-family: Pixelify Sans;
+    text-align: center;
+    z-index: 50;
+}
+#title2-2 {
+    position: absolute;
+    color:#e39600;
+    opacity: 1;
+    text-shadow: 4px 5px 4px #080526;   
+
+    left: 254px;
+    top: 168px;
+    font-size: 92px;
+    font-family: Pixelify Sans;
+    text-align: center;
+    z-index: 49;
+}
+
+/* 背景装饰 */
+#shine {
+    position: absolute;
+    left: 100px;
+    /* top: 300px; */
+    width: 70%;
+}
+#shine2 {
+    position: absolute;
+    left: 300px;
+    top: 1300px;
+    width: 70%;
+}
+
+.cloud {
+    position: absolute;
+    left: 132px;
+    top: 546px;
+    opacity: 0.4;
+    z-index: 8;
+}
+#cloud2 {
+    left: 810px;
+    top: 814px;
+    width: 195px;
+}
+#cloud3 {
+    left: 402px;
+    top: 1260px;
+    width: 177px;
+}
+#cloud4 {
+    left: 1252px;
+    top: 1570px;
+}
+#cloud5 {
+    left: 706px;
+    top: 2080px;
+    width: 195px;
+}
+
+/* 文字 */
+.text {
+    position: absolute;
+    font-size: 28px;
+    color:#d9d9f9;
+    z-index: 10;
+}
+#text1 {
+    left: 188px;
+    top: 340px;
+    width: 1331px;
+}
+#text2 {
+    left: 167px;
+    top: 744px;
+    width: 576px;
+}
+#text3 {
+    left: 826px;
+    top: 1505px;
+    width: 576px;
+}
+
+#intro {
+    font-size: 22px;
+    left: 1026px;
+    top: 626px;
+}
+#intro:hover {
+    font-size: 25px;
+    color:#fff280;
+}
+#intro2 {
+    font-size: 22px;
+    left: 250px;
+    top: 1328px;
+}
+#intro2:hover {
+    font-size: 25px;
+    color:#fff280;
+}
+
+
+/* --售卖机1-- */
+#VM1 {
+    position: absolute;
+    left: 960px;
+    top: 664px;
+    z-index: 20;
+}
+.CD {
+    position: absolute; 
+    z-index: 21;
+    cursor: url(wand.png), auto; /* 使用自定义图像作为光标 */
+
+}
+.CD:hover {
+    transform: translateY(-13px); /* 向上移动 10px */
+    transition: transform 0.3s ease; 
+}
+.CD:active {
+    cursor: url(wand1.png), auto; /* 使用自定义图像作为光标 */
+}
+
+#CD1 {
+    left: 995px;
+    top: 763px;
+}
+#CD2-1 {
+    left: 1041px;
+    top: 763px;
+}
+#CD2-2 {
+    left: 1089px;
+    top: 763px;
+}
+#CD3-1 {
+    left: 1136px;
+    top: 763px;
+}
+#CD3-2 {
+    left: 1182px;
+    top: 763px;
+}
+#CD4 {
+    left: 995px;
+    top: 855px;
+}
+#CD5 {
+    left: 1041px;
+    top: 855px;
+}
+#CD6 {
+    left: 1088px;
+    top: 855px;
+}
+#CD7-1 {
+    left: 1135px;
+    top: 855px;
+}
+#CD7-2 {
+    left: 1183px;
+    top: 855px;
+}
+#CD8-1 {
+    left: 997px;
+    top: 949px;
+}
+#CD8-2 {
+    left: 1044px;
+    top: 949px;
+}
+#CD9-1 {
+    left: 1091px;
+    top: 949px;
+}
+#CD9-2 {
+    left: 1137px;
+    top: 949px;
+}
+#CD10 {
+    left: 1183px;
+    top: 949px;
+}
+
+
+/* --售卖机2-- */
+#VM2 {
+    position: absolute;
+    left: 145px;
+    top: 1366px;
+    z-index: 20;
+}
+.drink {
+    position: absolute;
+    z-index: 21;
+    cursor: url(wand.png), auto; /* 使用自定义图像作为光标 */
+}
+.drink:hover {
+    transform: translateY(-10px); /* 向上移动 10px */
+    transition: transform 0.3s ease; 
+}
+.drink:active {
+    cursor: url(wand1.png), auto; /* 使用自定义图像作为光标 */
+}
+
+#drink1-1 {
+    left: 196px;
+    top: 1401px;
+}
+#drink1-2 {
+    left: 242px;
+    top: 1401px;
+}
+#drink2-1 {
+    left: 288px;
+    top: 1401px;
+}
+#drink2-2 {
+    left: 333px;
+    top: 1401px;
+}
+#drink2-3 {
+    left: 379px;
+    top: 1401px;
+}
+#drink3 {
+    left: 472px;
+    top: 1423px;
+}
+#drink4-1 {
+    left: 195px;
+    top: 1510px;
+}
+#drink4-2 {
+    left: 242px;
+    top: 1510px;
+}
+#drink5-1 {
+    left: 289px;
+    top: 1510px;
+}
+#drink5-2 {
+    left: 336px;
+    top: 1510px;
+}
+#drink6 {
+    left: 413px;
+    top: 1510px;
+}
+#drink7 {
+    left: 471px;
+    top: 1510px;
+}
+#drink8 {
+    left: 237px;
+    top: 1606px;
+}
+#drink9-1 {
+    left: 284px;
+    top: 1606px;
+}
+#drink9-2 {
+    left: 331px;
+    top: 1606px;
+}
+#drink10-1 {
+    left: 378px;
+    top: 1606px;
+}
+#drink10-2 {
+    left: 425px;
+    top: 1606px;
+}
+#drink11-1 {
+    left: 471px;
+    top: 1606px;
+}
+#drink11-2 {
+    left: 514px;
+    top: 1606px;
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+body {
+    background-color: #332e6f;
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ /* 改变全局字体 */
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+#shine {
+    position: absolute;
+    left: 240px;
+    /* top: 300px; */
+    width: 70%;
+}
+
+.text {
+    position: absolute;
+    font-size: 28px;
+    color:#d9d9f9;
+    z-index: 10;
+}
+#text1 {
+   
+    /* left: 188px; */
+    top: 500px;
+    width: 900px;
+}
+
+#randomImage {
+    position: absolute;
+    /* top: 140px; */
+    bottom: 280px;
+    width: 450px;
+    border-radius: 8px;
+
+}

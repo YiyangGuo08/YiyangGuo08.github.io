@@ -1,0 +1,74 @@
+<!doctype html>  
+      <html>
+        <head>
+            <link rel="shortcut icon" href="CD6.png">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=Pixelify+Sans:wght@400..700&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+
+          <style>
+            body {
+                background-color: #332e6f;
+
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            /* 改变全局字体 */
+            * {
+                font-family: "Pixelify Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: <weight>;
+                font-style: normal;
+            }
+
+            .text {
+                position: absolute;
+                font-size: 48px;
+                color:#d9d9f9;
+                z-index: 10;
+                /* top: 200px; */
+                bottom: 500px; 
+                /* left: 660px;  */
+                /* text-align: center; */
+            }
+            #shine {
+                position: absolute;
+                left: 240px;
+                /* top: 300px; */
+                width: 70%;
+            }
+
+            .audio-container {
+                position: absolute;
+                bottom: 300px; 
+                left: 50%; 
+                transform: translateX(-50%); /* 水平居中 */
+            }
+            #CD {
+                position: absolute;
+                transform: rotate(-90deg);
+                bottom: 390px; 
+                /* left: 810px;  */
+                width: 60px;
+            }
+
+          </style>
+        </head>
+
+        <body>
+            <div class="text" id="intro"> Play the music 👇 </div>
+            <img id="shine" src="shine.gif">
+            <img id="CD" src="CD6.png">
+
+
+            <div class="audio-container">
+                <audio controls>
+                    <source src="cd6.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+           
+        </body>
+      </html>
