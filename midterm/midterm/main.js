@@ -301,6 +301,18 @@ function confirmDrink4_1() {
         return false;
     }
 }
+function confirmDrink4_2() {
+    // 显示确认对话框
+    var result = confirm("Are you sure you want this item?");
+    
+    if (result) {
+        window.open("test.html", '_blank');   // 重新打开一个窗口
+        removeImage("drink4-2");
+        
+    } else {
+        return false;
+    }
+}
 function confirmDrink5_1() {
     // 显示确认对话框
     var result = confirm("Are you sure you want this item?");
